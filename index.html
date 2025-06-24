@@ -6,6 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/mediaquens.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=key" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
@@ -20,8 +25,20 @@
             <div id="formulario">
                 <h1> Logim</h1>
                 <p>Seja bem-vindo(a) novamante. Faça login para acessar sua conta sua conta e pode fazer as condigurações no seu ambiente</p>
-                <form action="login.png" method="post">
-
+                <form action="login.png" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">mail</span>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30" >
+                        <label for="ilogin">Login</label>
+                    </div>
+                    
+                    <div id="campo">
+                    <span class="material-symbols-outlined">key</span>   
+                    <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="30">
+                    <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esquici.html">Esquici a senha </a>
                 </form>
             </div>
         </section>
