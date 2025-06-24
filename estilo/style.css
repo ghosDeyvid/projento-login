@@ -41,7 +41,7 @@ section#login{
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-pixabay-276514.jpg) no-repeat;
+    background: #A6654E(../imagens/pexels-pixabay-276514.jpg) no-repeat;
     background-size: cover;
     height: 200px;
     
